@@ -1,0 +1,20 @@
+GET http://localhost:8080/fruits
+
+###
+POST http://localhost:8080/fruits
+Content-Type: application/json
+
+{
+  "name": "Pear"
+}
+
+###
+PUT http://localhost:8080/fruits/4
+Content-Type: application/json
+
+{
+  "name": "Pear updated"
+}
+
+###
+DELETE http://localhost:8080/fruits/4
